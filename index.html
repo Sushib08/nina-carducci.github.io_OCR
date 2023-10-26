@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="portfollio" />
@@ -19,25 +19,62 @@
       defer
     ></script>
 
-    <!-- Informations Schema.org pour le référencement local -->
-    <meta itemprop="name" content="Nina Carducci" />
-    <meta itemprop="description" content="Site de photographie" />
-    <meta
-      itemprop="address"
-      content="68 avenue Alsace-Lorraine, 33200 Bordeaux"
-    />
-    <meta itemprop="telephone" content="05 56 67 78 89" />
-    <meta itemprop="openingHours" content="Mo-Fr 10:00-19:00" />
-
-    <!-- Balises Meta pour Instagram -->
-    <meta property="og:type" content="profile" />
-    <meta property="og:title" content="Nina Carducci Instagram" />
-    <meta
-      property="og:url"
-      content="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-    />
-    <meta property="og:image" content="./assets/images/nina.avif" />
-    <meta property="og:description" content="Mes photographies" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://nina-carducci.github.io/#website",
+            "url": "https://nina-carducci.github.io/",
+            "name": "Nina Carducci",
+            "description": "Photographe freelance",
+            "inLanguage": "fr-FR"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://nina-carducci.github.io/#webpage",
+            "url": "https://nina-carducci.github.io/",
+            "name": "Nina Carducci - Photographe | Page d’accueil",
+            "isPartOf": { "@id": "https://nina-carducci.github.io/#website" },
+            "description": "Réalisez vos Shootings, Retouches et Albums photos avec Nina Carducci. Découvrez ici son portfolio : spectacles, mariages, portraits, entrepreneuriat…",
+            "inLanguage": "fr-FR",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": ["https://nina-carducci.github.io/"]
+              }
+            ]
+          },
+          {
+            "@type": "ProfessionalService",
+            "currenciesAccepted": "EUR",
+            "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+            "paymentAccepted": "Cash, Credit Card",
+            "priceRange": "50-400 €",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "FR",
+              "addressLocality": "Bordeaux, France",
+              "postalCode": "F-33200",
+              "streetAddress": "68 avenue Alsace-Lorraine"
+            },
+            "areaServed": {
+              "@type": "AdministrativeArea",
+              "name": ["Île de France", "Bordeaux"]
+            },
+            "email": "ninacarducci@openclassrooms.com",
+            "legalName": "Nina Carducci",
+            "numberOfEmployees": { "@type": "QuantitativeValue", "value": 1 },
+            "slogan": "Capturez vos moments les plus précieux et gardez un souvenir impérissable.",
+            "telephone": "+33556677889",
+            "description": "Photographe freelance",
+            "name": "Nina Carducci",
+            "url": "https://nina-carducci.github.io/"
+          }
+        ]
+      }
+    </script>
 
     <title>Nina Carducci</title>
   </head>
