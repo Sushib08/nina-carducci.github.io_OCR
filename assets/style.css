@@ -91,9 +91,6 @@ body {
   font-size: 14px;
 }
 
-/* #gallery {
-		  min-height: 100vh;
-	} */
 .title {
   text-align: center;
   padding-block: 2em;
@@ -101,21 +98,17 @@ body {
 .gallery .nav {
   justify-content: center;
 }
-/* .nav-pills .nav-link.active,
-	.nav-pills .show > .nav-link .active-tag {
-	  color: #fff;
-	  background-color: #beb45a;
-	  border-radius: 0;
-	} */
 
 .nav-pills .nav-link.active-tag {
   color: #fff;
+  font-weight: bold;
   background-color: #beb45a;
   border-radius: 0;
 }
 
 .nav-pills .nav-link {
   color: #000;
+  font-size: 1.5rem;
 }
 .item-column {
   position: relative;
