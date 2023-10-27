@@ -5,7 +5,13 @@
     <meta name="description" content="portfollio" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" async />
     <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" async />
+    <link
+      rel="preload"
+      as="style"
+      media="(min-width:481px)"
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,400;1,700&family=Inter:wght@400;500&display=swap"
+      onload="this.rel='stylesheet'"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
@@ -105,8 +111,9 @@
       property="og:url"
       content="https://www.instagram.com/ninacarducci.photo/?hl=fr"
     />
+    <meta name="twitter:card" content="summary_large_image" />
 
-    <title>Nina Carducci</title>
+    <title>Nina Carducci - Photograpge</title>
   </head>
   <body>
     <main>
@@ -207,7 +214,7 @@
           <img src="./assets/images/nina.avif" alt="nina" />
         </div>
         <div id="about-me">
-          <h3 class="about-me__title">A propos de moi</h3>
+          <h2 class="about-me__title">A propos de moi</h2>
           <p class="about-me__introduction">
             Devenir photographe était pour moi une évidence. Comme si j’y étais
             prédestiné. Saisir un moment, une émotion, une situation, un
