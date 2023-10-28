@@ -104,12 +104,12 @@ body {
   font-weight: bold;
   background-color: #beb45a !important;
   border-radius: 0;
-  cursor: pointer !important;
 }
 
 .nav-pills .nav-link {
   color: #000;
   font-size: 1.5rem;
+  cursor: pointer !important;
 }
 .item-column {
   position: relative;
