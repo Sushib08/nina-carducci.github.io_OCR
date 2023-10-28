@@ -100,11 +100,11 @@ body {
 }
 
 .nav-pills .nav-link.active-tag {
-  color: black;
+  color: black !important;
   font-weight: bold;
-  background-color: #beb45a;
+  background-color: #beb45a !important;
   border-radius: 0;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .nav-pills .nav-link {
